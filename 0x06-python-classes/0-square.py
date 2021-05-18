@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-...
-Empty square empty
-...
+"""
+empty square class
+"""
 
 class Square():
-    ...
+    """
     empty class
-    ...
+    """
     pass
