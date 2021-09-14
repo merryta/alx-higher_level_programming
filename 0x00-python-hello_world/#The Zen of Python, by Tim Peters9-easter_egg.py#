@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+print("The zen of python, by Tim Peters
+
+Beautiful is better then ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+complex is better then complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special case arent ")
