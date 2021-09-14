@@ -1,0 +1,99 @@
+The `` 0-add_integer`` module
+=======================
+
+Using ``add_integer``
+--------------------
+
+Importing the function from the module:
+	  >>> add_integer = __import__("0-add_integer").add_integer
+
+Checking for module docstring:
+	 >>> m = __import__("0-add_integer").__doc__
+	 >>> len(m) > 1
+	 True
+
+Checking for function docstring:
+	 >>> f = __import__("0-add_integer").add_integer.__doc__
+	 >>> len(f) > 1
+	 True
+
+Checkingregular addition:
+	>>> add_integr(2, 4)
+	6
+
+Checking postive with negative:
+	 >>> add_integre(2, -4)
+	 -2
+
+Checking negative with positive:
+	 >>> add_integer(-6, 9)
+	 3
+
+Checking float with int:
+	 >>> add_integer(2.1, 4)
+	 6
+
+Checking int with float:
+	 >>> add_integer(2, 7.8)
+	 12
+
+Checknig both float:
+	 >>> add_integer(2.45, 3.1)
+	 5
+
+Checking for passed inf:
+	 >>> add_integer(1, float('inf'))
+	 Traceback (most recent call last):
+	 ...
+	 TypeError: a must be an integer
+
+Checking number non-number with number
+	 >>> add_integer([1], 2)
+	 Tracback (most recent call last)
+	 ...
+	 TypeError: a must be integer
+
+Checking non-number with number
+	 >>> add_integer(3, "2")
+	 Tracback (most recent call last)
+	 ...
+	 Typeback: b must be integer
+
+Checking super long int:
+	 >>> add_integer(99999999999999999999999999999999, 1)
+	 1000000000000000000000000000
+
+Checking non-number with non-number:
+	 >>> add_integer((2,), {"key": "value"})
+	 Tracback (most recent call last):
+	 ...
+	 TypeError: a and b must integer
+
+Checking bool with number:
+	 >>> add_integer (True, 0)
+	 Tracback (most recent call last):
+	 ...
+	 TypeError: a must be number
+
+Checking number with bool:
+	 >>> add_integer (1, False)
+	 Tracback (most recent call last):
+	 TypeError: b must be number
+
+Checking no args:
+	 >>> add_integer()
+	 Tracback (most recent call last):
+	 ...
+	 TypeError: add_intege() missing 2 required positional argument: 'a' and 'b'
+
+Checking one args:
+	 >>> add_integer(1)
+	 Tracback (most recent call last)
+	 ...
+	 TypeError: add_integer() missing 1 required postinal argument: 'b'
+
+Checking more then two args:
+	 >>> add_integer(1, 4, 6)
+	 Tracback (most recent call last):
+	 ....
+	 TypeError: add_intreger() takes 2 postinal arguments but 3 were given

@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 #!/usr/bin/python3
 print("Holberton School:{}".format(88+10))\n
+=======
+#!/bin/bash
+python3 -c "$PYCODE"
+>>>>>>> a0dccf3621d1fffcd402788d6087c322c204a8b9

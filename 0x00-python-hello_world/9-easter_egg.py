@@ -1,4 +1,2 @@
 #!/usr/bin/python3
-print('The Zen of Python, by Tim Peters.')
-s = 'Beautiful is better than ugly.\nExplicit is better than implicit.\nsimple is better than complex.\nComplex is better than complicated.\nFlat is better than nested.\nSparse is better than dense.\nReadablitity counts.\nSpecial cases aren\'t special enough to break the rules.\nAlthough practicality beat purity.\nErrors should never pass silently.\nUnless explicity silenced.\nIn the face of ambiguitly, refuse the temptation to guss.\nThere should be one-- and preferably only one --obvious way to do it.\nAlthough that way may not be obvious at first unless you\'re Dutch.\nNew is better than never\nAlthough never is often better than*right* now.\nIf the implementation is hard to explain, it\'t a bd idea.\nIf the implementation is easy to explain, it may be a good idea.\nNamespaces are one honkig great idea -- let\'t do more of those!'
-print(s)
+import this
